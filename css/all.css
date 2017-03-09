@@ -96,11 +96,83 @@ margin-bottom: 0;
 .contentSlide{
 	display: block;
 	float: left;
-	width: 27.6%;
-	margin: 25% 10%;
-	color: white;
+	width: 30.6%;
+	margin-top: 10%;
+	margin-left: 0;
+	}
+.text-block{
+	color: #ffffff;
+	font-size: 3vw;
+	line-height: 1.1;
 }
+.text-block>span{
+	font-size: 2vw;
+
+	}
 
 .botton{
+	display: block;
+	width: 172px;
+	height: 41px;
+	background: #5094f2;
+	border-radius: 2px;
+	float: left;
+	color: #fff;
+	font: 2.2rem SegoeWPLight, Helvetica, sans-serif;
+	background-image: url(../img/button.png);
+	background-position: 5% 50%; /* Положение фона */
+  background-repeat: no-repeat; /* Отменяем повторение фона */
+  margin-top: 3%;
+	
+}
+.botton>p{
+	margin: 0;
+	margin-left: 46px;
+	margin-top: 6px;
+}
+.perf{
+	display: block;
+	position: relative;
+	float: left;
+	margin-top: -7px;
+	width: 100%;
+	min-height: 7px;
+	background-image: url(../img/perforation.png);
+	z-index: 1000000;
+}
 
+.col{
+	width: 25%;
+	margin: 5% 4%;
+	border: 1px solid black;
+	float: left;
+}
+.imageHoldCol{
+	display: block;
+	float: center;
+	position: relative;
+	width: 40%;
+	height: 40%;
+	background-color: #grey;
+	border-radius: 50%;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+.imageHoldCol > img{
+	display: block;
+	float: center;
+}
+
+.colContWrap > p.hight{
+	display: block;
+	color: #5094f2;
+	font-size: 2.5vw;
+	float: center;
+	line-height: 1.1;
+}
+.colContWrap > p{
+	font-size: 1.4vw;
+	color: #999999;
+	text-align: center;
+	margin: 3%;
 }
