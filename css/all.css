@@ -1,0 +1,106 @@
+html{
+	font: 10px/10px tahoma, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: SegoeWPLight; /* Имя шрифта */
+    src: url(../fonts/ofont.ru_Segoe WP Light.ttf); /* Путь к файлу со шрифтом */
+   }
+   P {
+    font-family: Segoe;
+   }
+
+body {
+	margin: 0;
+	font: 1.2rem/1.8rem SegoeWPLight, Helvetica, sans-serif;
+}
+*{
+	box-sizing: border-box;
+}
+.wrapper{
+	max-width: 1250px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+
+.contentWrap{
+	max-width: 976px;
+	margin: 0 auto;
+	min-height: 92px;
+}
+
+a{
+	color: #24b6e2;
+}
+a:hover{
+	text-decoration: underline;
+}
+h1{
+	font-size: 2.8rem/2.2rem;
+	color: #212121;
+}
+h2{
+	font-size: 4.2rem/4.442rem;
+}
+h3{
+	font-size: 2.635rem/4.442rem;
+}
+h4{
+	font-size: 1.2rem/2.2rem;
+  color: #555555;
+  text-transform: uppercase;
+}
+/*--------------------------HEADER-----------------------*/
+.logo{
+	margin-top: 24px;
+	margin-bottom: 20px;
+	display: block;float: left;
+}
+.nav{
+margin-top: 26px;
+display: block;
+float: right;
+padding-left: 0;
+margin-bottom: 0;
+}
+.nav>li{
+	display: inline-block;
+	padding: 21px;
+}
+.nav>li>a{
+	text-decoration: none;
+	color: #6c6c6c;
+	font-size: 2.035rem;
+}
+.nav>li:hover, li.activ{
+	border-bottom: 3px solid #5094f2;
+	}
+.bxslider{
+	display: block;
+	float: left;
+ 	width: 100%;
+ 	height: 475px;
+}
+.bxslider .slideHolder{
+	display: block;
+	float: left;
+	background-image: url(../img/Background-slide.png);
+	width: 100%;
+}
+.imageholder{
+	display: block;
+	float: left;
+	width: 27.6%;
+	margin: 2.5% 10%;
+}
+.contentSlide{
+	display: block;
+	float: left;
+	width: 27.6%;
+	margin: 25% 10%;
+	color: white;
+}
+
+.botton{
+
+}
